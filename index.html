@@ -264,8 +264,9 @@
         <a href="mailto:wnadererswimdow@gmail.com" class="btn btn-g">Email me</a>
       </div>
       <p class="form-note">Prefer to type it out? Drop the details below and it lands straight in my inbox.</p>
-      <form name="inquiry" method="POST" data-netlify="true" netlify style="margin-top:18px;max-width:560px;position:relative">
-        <input type="hidden" name="form-name" value="inquiry" />
+      <form name="inquiry" method="POST" action="https://formspree.io/f/REPLACE_WITH_YOUR_ID" style="margin-top:18px;max-width:560px;position:relative">
+        <input type="hidden" name="_subject" value="New enquiry from wander_media site" />
+        <input type="hidden" name="_next" value="https://wanderersrebel.github.io/wander-media/#inquiry" />
         <label class="muted" style="font-size:.85rem;display:block;margin-bottom:6px">Name</label>
         <input name="name" type="text" placeholder="Your name" required style="width:100%;background:var(--card);border:1px solid var(--line);color:var(--txt);border-radius:10px;padding:12px 14px;font-family:inherit;margin-bottom:14px" />
         <label class="muted" style="font-size:.85rem;display:block;margin-bottom:6px">Email</label>
@@ -274,7 +275,7 @@
         <textarea name="message" placeholder="Brand, platforms, goals, rough budget…" style="width:100%;background:var(--card);border:1px solid var(--line);color:var(--txt);border-radius:10px;padding:12px 14px;font-family:inherit;min-height:110px;resize:vertical"></textarea>
         <p style="margin-top:14px"><button type="submit" class="btn btn-p">Send enquiry</button></p>
       </form>
-      <p class="form-note">Form posts free on Netlify. On GitHub Pages, swap to a mailto or Formspree endpoint.</p>
+      <p class="form-note">Enquiries email you free via Formspree. Replace REPLACE_WITH_YOUR_ID in the form action with your Formspree form ID (formspree.io → create form → copy the /f/... part). Or switch the host to Netlify and the form works as-is.</p>
     </div>
   </div>
 </section>
