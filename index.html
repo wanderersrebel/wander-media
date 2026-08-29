@@ -104,14 +104,16 @@
   .scard:hover .go{opacity:1;transform:translateX(0)}
 
   /* WORK */
-  .wgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;max-width:980px;margin:0 auto}
-  .shot{position:relative;border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);background:#0e141c;aspect-ratio:4/5}
+  .wgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:1080px;margin:0 auto}
+  .shot{position:relative;border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);background:#0e141c;aspect-ratio:4/5;display:block}
   .shot img{width:100%;height:100%;object-fit:contain;display:block;transition:transform .5s}
   .shot:hover img{transform:scale(1.03)}
-  .shot .meta{position:absolute;left:0;right:0;bottom:0;padding:16px 18px;background:linear-gradient(transparent,rgba(4,8,11,.92));opacity:0;transform:translateY(8px);transition:.3s}
+  .shot .meta{position:absolute;left:0;right:0;bottom:0;padding:14px 16px;background:linear-gradient(transparent,rgba(4,8,11,.94));opacity:0;transform:translateY(8px);transition:.3s}
   .shot:hover .meta{opacity:1;transform:translateY(0)}
-  .shot .meta b{display:block;font-size:1.02rem}
-  .shot .meta span{color:var(--muted);font-size:.82rem}
+  .shot .meta b{display:block;font-size:1rem}
+  .shot .meta span{color:var(--muted);font-size:.8rem}
+  .shot .cta{display:block;margin-top:10px}
+  .shot .cta .btn{width:100%;text-align:center;pointer-events:auto}
 
   /* PROCESS */
   .prgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
@@ -181,8 +183,7 @@
     </div>
     <div class="hero-visual">
       <div class="float-card">
-        <span class="tag">Sample · chargrill</span>
-        <img src="assets/food-ad.png" alt="Sample chargrill ad creative" />
+        <img src="assets/food-ad.png" alt="Chargrill ad creative" />
         <div class="chip">Made to stop the thumb ✦</div>
       </div>
     </div>
@@ -227,14 +228,34 @@
   <div class="wrap">
     <div class="head reveal">
       <span class="eyebrow">Selected work</span>
-      <h2>Sample creatives — swipe through the vibe.</h2>
-      <p>Placeholders for now. Each slot becomes a real project once we work together.</p>
+      <h2>Work that stops the scroll.</h2>
+      <p>Creative directions across the brands I build for. Tap any one to start a project.</p>
     </div>
     <div class="wgrid">
-      <div class="shot reveal"><img src="assets/food-ad.png" alt="Sample food ad" /><div class="meta"><b>Restaurant ad creative</b><span>Sample · chargrill promo</span></div></div>
-      <div class="shot reveal"><img src="assets/salon-ad.png" alt="Sample salon reel" /><div class="meta"><b>Beauty Reels thumbnail</b><span>Sample · salon brand</span></div></div>
-      <div class="shot reveal"><img src="assets/coaching-ad.png" alt="Sample coaching post" /><div class="meta"><b>Coaching brand post</b><span>Sample · motivation</span></div></div>
-      <div class="shot reveal"><img src="assets/ecom-ad.png" alt="Sample e-com ad" /><div class="meta"><b>E-com ad creative</b><span>Sample · skincare launch</span></div></div>
+      <a class="shot reveal" href="https://calendly.com/wandererswindow/30min" target="_blank" rel="noopener">
+        <img src="assets/food-ad.png" alt="Restaurant ad creative" />
+        <div class="meta"><b>Restaurant ad creative</b><span>Chargrill promo</span><span class="cta"><span class="btn btn-p">Book a shoot →</span></span></div>
+      </a>
+      <a class="shot reveal" href="https://calendly.com/wandererswindow/30min" target="_blank" rel="noopener">
+        <img src="assets/salon-ad.png" alt="Salon Reels thumbnail" />
+        <div class="meta"><b>Beauty Reels thumbnail</b><span>Salon brand</span><span class="cta"><span class="btn btn-p">See salon package →</span></span></div>
+      </a>
+      <a class="shot reveal" href="https://calendly.com/wandererswindow/30min" target="_blank" rel="noopener">
+        <img src="assets/coaching-ad.png" alt="Coaching brand post" />
+        <div class="meta"><b>Coaching brand post</b><span>Motivation</span><span class="cta"><span class="btn btn-p">Start a project →</span></span></div>
+      </a>
+      <a class="shot reveal" href="https://calendly.com/wandererswindow/30min" target="_blank" rel="noopener">
+        <img src="assets/ecom-ad.png" alt="E-com ad creative" />
+        <div class="meta"><b>E-com ad creative</b><span>Skincare launch</span><span class="cta"><span class="btn btn-p">View ad creative →</span></span></div>
+      </a>
+      <a class="shot reveal" href="https://calendly.com/wandererswindow/30min" target="_blank" rel="noopener">
+        <img src="assets/fitness-ad.png" alt="Fitness ad creative" />
+        <div class="meta"><b>Fitness ad creative</b><span>Waitlist builder</span><span class="cta"><span class="btn btn-p">Plan fitness content →</span></span></div>
+      </a>
+      <a class="shot reveal" href="https://calendly.com/wandererswindow/30min" target="_blank" rel="noopener">
+        <img src="assets/street-ad.png" alt="Streetwear ad creative" />
+        <div class="meta"><b>Streetwear ad creative</b><span>Restock sell-out</span><span class="cta"><span class="btn btn-p">Sell the drop →</span></span></div>
+      </a>
     </div>
   </div>
 </section>
