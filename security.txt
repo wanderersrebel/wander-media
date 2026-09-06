@@ -1,0 +1,3 @@
+Contact: https://github.com/wanderersrebel/wander-media
+Expires: 2027-12-31
+Preferred-Languages: en
