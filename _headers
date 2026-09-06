@@ -1,0 +1,11 @@
+# Security headers for wander-media on Netlify
+# Docs: https://docs.netlify.com/security/headers/
+
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+  # HSTS: only enforce if you're 100% on HTTPS (Netlify does this by default)
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
