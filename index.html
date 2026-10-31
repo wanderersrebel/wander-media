@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="referrer" content="strict-origin-when-cross-origin" />
-<title>wander_media — content people don't scroll past</title>
-<meta name="description" content="Social content + paid ad creatives for brands done being invisible. Plan, design, ship — and actually get enquiries." />
+<title>Wander Media — content people don't scroll past</title>
+<meta name="description" content="WanderHouse Tribe, Mimi & Friends TV UK, Wanderers Rebel Travel — three channels, one creative direction." />
 <link rel="icon" type="image/png" href="assets/logo.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -87,6 +87,15 @@
   .head{max-width:640px;margin-bottom:46px}
   .head h2{font-size:clamp(1.9rem,4.4vw,2.9rem);font-weight:700;letter-spacing:-.02em;line-height:1.04;margin:14px 0 12px}
   .head p{color:var(--muted);font-size:1.05rem}
+
+  /* CHANNELS */
+  .chgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  .chcard{position:relative;border:1px solid var(--line);border-radius:var(--radius);padding:30px;background:var(--card);transition:border-color .25s,transform .25s}
+  .chcard:hover{border-color:var(--teal);transform:translateY(-4px)}
+  .chcard .ch{font-size:.75rem;text-transform:uppercase;letter-spacing:.22em;color:var(--ember);font-weight:700;margin-bottom:8px}
+  .chcard h3{font-size:1.2rem;margin:6px 0 10px;font-weight:700}
+  .chcard p{color:var(--muted);font-size:.92rem;margin-bottom:14px}
+  .chcard .meta{font-size:.82rem;color:var(--muted)}
 
   /* PROBLEM */
   .problem{background:var(--bg-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
@@ -190,12 +199,12 @@
 <section class="hero">
   <div class="wrap hero-grid">
     <div>
-      <span class="eyebrow">Social content &amp; paid ad creatives</span>
-      <h1>Your feed deserves<br>better than<br><em>"post &amp; pray."</em></h1>
-      <p class="lead">I plan, design and ship scroll-stopping social content + ad creatives for brands that are done being invisible — and ready to actually get enquiries.</p>
+      <span class="eyebrow">Content &amp; distribution</span>
+      <h1>Welsh valleys to the desert — <em>we make noise.</em></h1>
+      <p class="lead">Three channels. One creative direction. WanderHouse Tribe (Afro x Club), Mimi &amp; Friends, and Wanderers Rebel Travel — built, branded, and shipped by Wander Media.</p>
       <div class="cta">
-        <a href="#inquiry" class="btn btn-p">Start a project</a>
-        <a href="#work" class="btn btn-g">See the work</a>
+        <a href="#inquiry" class="btn btn-p">Work with us</a>
+        <a href="#channels" class="btn btn-g">See the channels</a>
       </div>
     </div>
     <div class="hero-visual">
@@ -208,20 +217,60 @@
 </section>
 
 <div class="marquee">
-  <span>RESTAURANTS <b>✦</b> SALONS <b>✦</b> COACHES <b>✦</b> E-COM <b>✦</b> LOCAL BIZ <b>✦</b> FITNESS <b>✦</b> REAL ESTATE <b>✦</b> STREETWEAR <b>✦</b> RESTAURANTS <b>✦</b> SALONS <b>✦</b> COACHES <b>✦</b> E-COM <b>✦</b> LOCAL BIZ <b>✦</b> FITNESS <b>✦</b> REAL ESTATE <b>✦</b> STREETWEAR <b>✦</b></span>
+  <span>WANDER HOUSE TRIBE <b>✦</b> MIMI &amp; FRIENDS <b>✦</b> WANDERERS REBEL TRAVEL <b>✦</b> AFRO x CLUB <b>✦</b> TRIBAL FUTURE <b>✦</b> WELSH VALLEYS → DESERT <b>✦</b> WANDER HOUSE TRIBE <b>✦</b> MIMI &amp; FRIENDS <b>✦</b> WANDERERS REBEL TRAVEL <b>✦</b> AFRO x CLUB <b>✦</b> TRIBAL FUTURE <b>✦</b> WELSH VALLEYS → DESERT <b>✦</b></span>
 </div>
+
+<section id="channels">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="eyebrow">The family</span>
+      <h2>Three channels. One standard.</h2>
+      <p>Every channel is treated like a brand — not a bucket. Same creative eye, different audience and platform.</p>
+    </div>
+    <div class="chgrid">
+      <div class="chcard reveal">
+        <div class="ch">Music</div>
+        <h3>WanderHouse Tribe</h3>
+        <p>Afro x Club, Tribal Future. Dark, cinematic, desert-born energy with a Welsh soul.</p>
+        <div class="meta">
+          <a href="https://www.youtube.com/@wanderhousetribe" target="_blank" rel="noopener">YouTube @wanderhousetribe</a><br>
+          <a href="https://www.instagram.com/wanderhousetribe/" target="_blank" rel="noopener">IG @wanderhousetribe</a><br>
+          <a href="https://www.tiktok.com/@wanderhouseafroandclub" target="_blank" rel="noopener">TikTok @wanderhouseafroandclub</a>
+        </div>
+      </div>
+      <div class="chcard reveal">
+        <div class="ch">Kids</div>
+        <h3>Mimi &amp; Friends TV UK</h3>
+        <p>Bright, playful, story-driven animation for younger audiences. Clean uploads, consistent schedule.</p>
+        <div class="meta">
+          <a href="https://www.youtube.com/@wandererswindow24" target="_blank" rel="noopener">YouTube @wandererswindow24</a><br>
+          <a href="https://www.instagram.com/wandererswindow/" target="_blank" rel="noopener">IG @wandererswindow</a>
+        </div>
+      </div>
+      <div class="chcard reveal">
+        <div class="ch">Travel</div>
+        <h3>Wanderers Rebel Travel</h3>
+        <p>Real locations, real stories. From the Welsh valleys to the desert — shot, edited, branded.</p>
+        <div class="meta">
+          <a href="https://www.youtube.com/@TheBadboy68100" target="_blank" rel="noopener">YouTube @TheBadboy68100</a><br>
+          <a href="https://www.instagram.com/wanderersrebel/" target="_blank" rel="noopener">IG @wanderersrebel</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <section class="problem">
   <div class="wrap">
     <div class="head reveal">
       <span class="eyebrow">The honest bit</span>
-      <h2>Most brands post. Few get remembered.</h2>
-      <p>Generic canva templates and "happy Monday" captions don't move the needle. Here's what's quietly costing you reach — and how we fix it.</p>
+      <h2>Most channels post. Few get remembered.</h2>
+      <p>Generic templates and algorithm-chasing don't build a brand. We build hooks, stories, and systems that make people stop — and follow.</p>
     </div>
     <div class="pgrid">
-      <div class="pitem reveal"><div class="x">✕</div><h3>Blend-in content</h3><p>Safe, beige, forgettable. Scrolled past in 0.3 seconds. We build hooks that make people stop.</p></div>
-      <div class="pitem reveal"><div class="x">✕</div><h3>No system</h3><p>Posting when you remember = no momentum. You get a planned month, not a panic.</p></div>
-      <div class="pitem reveal"><div class="x">✕</div><h3>Agency tax</h3><p>Big retainers, slow turns, account managers. You get senior work without the invoice.</p></div>
+      <div class="pitem reveal"><div class="x">✕</div><h3>Random uploads</h3><p>No schedule, no tone, no recognition. We build a publish cadence your audience can rely on.</p></div>
+      <div class="pitem reveal"><div class="x">✕</div><h3>Unbranded clips</h3><p>Videos that look like everyone else's. We add the Wander Media stamp — logo, colour, identity.</p></div>
+      <div class="pitem reveal"><div class="x">✕</div><h3>No system</h3><p>Posting when you remember = no momentum. You get a planned queue, not a panic upload.</p></div>
     </div>
   </div>
 </section>
@@ -230,14 +279,13 @@
   <div class="wrap">
     <div class="head reveal">
       <span class="eyebrow">What you get</span>
-      <h2>Everything a brand needs to show up — and win the scroll.</h2>
+      <h2>Everything a channel needs to show up — and win the scroll.</h2>
     </div>
     <div class="sgrid">
-      <div class="scard reveal"><div class="num">01</div><h3>Ad creatives</h3><p>Static + animated ads for Meta, TikTok, YouTube and Google — built to platform sizes and tuned to perform.</p><div class="go">→ inquire</div></div>
-      <div class="scard reveal"><div class="num">02</div><h3>Short-form video</h3><p>Reels, Shorts &amp; TikTok with hooks, captions and on-trend cuts that hold past the 3-second mark.</p><div class="go">→ inquire</div></div>
-      <div class="scard reveal"><div class="num">03</div><h3>Content calendars</h3><p>A planned month of posts — themes, captions and hashtags done, so you never post blank.</p><div class="go">→ inquire</div></div>
-      <div class="scard reveal"><div class="num">04</div><h3>Copy &amp; strategy</h3><p>Scroll-stopping hooks, captions and a simple content strategy mapped to your actual goals.</p><div class="go">→ inquire</div></div>
-      <div class="scard reveal"><div class="num">05</div><h3>Website builds</h3><p>Landing pages and full sites — fast, mobile-first, on-brand. Built and shipped, not just designed.</p><div class="go">→ inquire</div></div>
+      <div class="scard reveal"><div class="num">01</div><h3>Channel production</h3><p>End-to-end: scripting, filming, editing, captions, thumbnails, upload. One creative lead from storyboard to publish.</p><div class="go">→ enquire</div></div>
+      <div class="scard reveal"><div class="num">02</div><h3>Short-form strategy</h3><p>Reels, Shorts &amp; TikTok with hooks, lyric-matched captions, and platform-native cuts that hold past the 3-second mark.</p><div class="go">→ enquire</div></div>
+      <div class="scard reveal"><div class="num">03</div><h3>Branding &amp; identity</h3><p>Logo, palette, motion style — applied consistently across every video so your channel is recognisable in 0.3 seconds.</p><div class="go">→ enquire</div></div>
+      <div class="scard reveal"><div class="num">04</div><h3>Content systems</h3><p>Approval batches, publish schedules, and queue management so you never miss a slot or publish the wrong version.</p><div class="go">→ enquire</div></div>
     </div>
   </div>
 </section>
@@ -246,33 +294,21 @@
   <div class="wrap">
     <div class="head reveal">
       <span class="eyebrow">Selected work</span>
-      <h2>Work that stops the scroll.</h2>
-      <p>Creative directions across the brands I build for. Tap any one to start a project.</p>
+      <h2>Built for the channels we run.</h2>
+      <p>Every project below is a live channel — not a case study we made up.</p>
     </div>
     <div class="wgrid">
-      <a class="shot reveal" href="https://calendly.com/wandererswindow/30min" target="_blank" rel="noopener">
-        <img src="assets/food-ad.png" alt="Restaurant ad creative" />
-        <div class="meta"><b>Restaurant ad creative</b><span>Chargrill promo</span><span class="cta"><span class="btn btn-p">Book a shoot →</span></span></div>
+      <a class="shot reveal" href="https://www.youtube.com/@wanderhousetribe" target="_blank" rel="noopener">
+        <div class="ph" style="aspect-ratio:4/5;background:#0e141c;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:.95rem;text-align:center;padding:20px">WanderHouse Tribe<br><span style="font-size:.85rem">Afro x Club • Tribal Future</span></div>
+        <div class="meta"><b>WanderHouse Tribe</b><span>Music channel — full episodes + shorts</span><span class="cta"><span class="btn btn-p">Watch →</span></span></div>
       </a>
-      <a class="shot reveal" href="https://calendly.com/wandererswindow/30min" target="_blank" rel="noopener">
-        <img src="assets/salon-ad.png" alt="Salon Reels thumbnail" />
-        <div class="meta"><b>Beauty Reels thumbnail</b><span>Salon brand</span><span class="cta"><span class="btn btn-p">See salon package →</span></span></div>
+      <a class="shot reveal" href="https://www.youtube.com/@wandererswindow24" target="_blank" rel="noopener">
+        <div class="ph" style="aspect-ratio:4/5;background:#0e141c;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:.95rem;text-align:center;padding:20px">Mimi &amp; Friends<br><span style="font-size:.85rem">Kids animation — stories &amp; lessons</span></div>
+        <div class="meta"><b>Mimi &amp; Friends TV UK</b><span>Kids channel — episodes + shorts</span><span class="cta"><span class="btn btn-p">Watch →</span></span></div>
       </a>
-      <a class="shot reveal" href="https://calendly.com/wandererswindow/30min" target="_blank" rel="noopener">
-        <img src="assets/coaching-ad.png" alt="Coaching brand post" />
-        <div class="meta"><b>Coaching brand post</b><span>Motivation</span><span class="cta"><span class="btn btn-p">Start a project →</span></span></div>
-      </a>
-      <a class="shot reveal" href="https://calendly.com/wandererswindow/30min" target="_blank" rel="noopener">
-        <img src="assets/ecom-ad.png" alt="E-com ad creative" />
-        <div class="meta"><b>E-com ad creative</b><span>Skincare launch</span><span class="cta"><span class="btn btn-p">View ad creative →</span></span></div>
-      </a>
-      <a class="shot reveal" href="https://calendly.com/wandererswindow/30min" target="_blank" rel="noopener">
-        <img src="assets/fitness-ad.png" alt="Fitness ad creative" />
-        <div class="meta"><b>Fitness ad creative</b><span>Waitlist builder</span><span class="cta"><span class="btn btn-p">Plan fitness content →</span></span></div>
-      </a>
-      <a class="shot reveal" href="https://calendly.com/wandererswindow/30min" target="_blank" rel="noopener">
-        <img src="assets/street-ad.png" alt="Streetwear ad creative" />
-        <div class="meta"><b>Streetwear ad creative</b><span>Restock sell-out</span><span class="cta"><span class="btn btn-p">Sell the drop →</span></span></div>
+      <a class="shot reveal" href="https://www.youtube.com/@TheBadboy68100" target="_blank" rel="noopener">
+        <div class="ph" style="aspect-ratio:4/5;background:#0e141c;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:.95rem;text-align:center;padding:20px">Wanderers Rebel Travel<br><span style="font-size:.85rem">Real locations. Real stories.</span></div>
+        <div class="meta"><b>Wanderers Rebel Travel</b><span>Travel channel — shorts + long-form</span><span class="cta"><span class="btn btn-p">Watch →</span></span></div>
       </a>
     </div>
   </div>
@@ -322,13 +358,13 @@
   <div class="wrap">
     <div class="head reveal">
       <span class="eyebrow">How it works</span>
-      <h2>From "we need content" to live &amp; working.</h2>
+      <h2>From raw footage to live channel.</h2>
     </div>
     <div class="prgrid">
-      <div class="step reveal"><div class="n">01</div><h3>Kickoff</h3><p>30 min. We map brand, audience and goals.</p></div>
-      <div class="step reveal"><div class="n">02</div><h3>Plan</h3><p>You approve a calendar + creative direction.</p></div>
-      <div class="step reveal"><div class="n">03</div><h3>Create</h3><p>I design, film, edit. You review in one link.</p></div>
-      <div class="step reveal"><div class="n">04</div><h3>Ship</h3><p>Posts go live on schedule; we tweak to the data.</p></div>
+      <div class="step reveal"><div class="n">01</div><h3>Brief</h3><p>Channel, audience, goal. We pick the right format and platform.</p></div>
+      <div class="step reveal"><div class="n">02</div><h3>Brand</h3><p>Thumbnail, title, caption, hashtags. Every piece is on-brand before it leaves the edit.</p></div>
+      <div class="step reveal"><div class="n">03</div><h3>Queue</h3><p>Batch approval, scheduled publish, catch-up logic. No more missed slots.</p></div>
+      <div class="step reveal"><div class="n">04</div><h3>Ship</h3><p>Videos go live on time. We watch the data and adjust.</p></div>
     </div>
   </div>
 </section>
@@ -336,11 +372,11 @@
 <section id="inquiry" class="cta-sec">
   <div class="wrap">
     <div class="cta-box reveal">
-      <h2>Got something worth shouting about? Let's make people stop.</h2>
+      <h2>Got a channel worth shouting about? Let's make people stop.</h2>
       <p>Tell me what you're building. I reply within one working day — and if it's a fit, you'll have a content plan before we even talk.</p>
       <div class="cta-row">
         <a href="https://calendly.com/wandererswindow/30min" target="_blank" rel="noopener" class="btn btn-p">Book a free call ↗</a>
-        <a href="mailto:wnadererswimdow@gmail.com" class="btn btn-g">Email me</a>
+        <a href="mailto:wandererswindow@gmail.com" class="btn btn-g">Email us</a>
       </div>
       <p class="form-note">Prefer to type it out? Drop the details below and it lands straight in my inbox.</p>
       <form name="inquiry" method="POST" action="https://formspree.io/f/xnpqnorj" style="margin-top:18px;max-width:560px;position:relative">
@@ -362,10 +398,12 @@
 
 <footer>
   <div class="wrap foot">
-    <div>© <span id="yr"></span> wander_media — content people don't scroll past.</div>
+    <div>© <span id="yr"></span> Wander Media — content people don't scroll past.</div>
     <div class="socials">
-      <a href="mailto:wnadererswimdow@gmail.com">Email</a>
-      <a href="https://calendly.com/wandererswindow/30min" target="_blank" rel="noopener">Book a call</a>
+      <a href="https://www.youtube.com/@wanderhousetribe" target="_blank" rel="noopener">YouTube</a>
+      <a href="https://www.instagram.com/wanderhousetribe/" target="_blank" rel="noopener">IG</a>
+      <a href="https://www.tiktok.com/@wanderhouseafroandclub" target="_blank" rel="noopener">TikTok</a>
+      <a href="mailto:wandererswindow@gmail.com">Email</a>
     </div>
   </div>
 </footer>
